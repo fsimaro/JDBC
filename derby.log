@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Wed Sep 25 22:51:56 ART 2024:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.15.2.0 - (1873585): instance a816c00e-0192-2c07-1d93-00000f3506f0 
+on database directory /home/fs/Proyectos/Diseno/Persistencia/JDBCSimaro/exampleDB with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/fs/Proyectos/Diseno/Persistencia/JDBCSimaro/target/JDBC-1.0-SNAPSHOT.jar
+java.vendor=Ubuntu
+java.runtime.version=11.0.24+8-post-Ubuntu-1ubuntu324.04.1
+user.dir=/home/fs/Proyectos/Diseno/Persistencia/JDBCSimaro
+os.name=Linux
+os.arch=amd64
+os.version=6.8.0-40-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

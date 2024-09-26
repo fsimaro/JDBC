@@ -1,0 +1,15 @@
+services:
+  db:
+    image: mysql:latest
+
+    command: --skip-grant-tables --upgrade=FORCE
+    restart: always
+    environment:
+      MYSQL_DATABASE: exampleDB
+      MYSQL_USER: root
+      MYSQL_PASSWORD: root
+      MYSQL_ALLOW_EMPTY_PASSWORD: yes
+    ports:
+      - "3306:3306"
+    volumes:
+      - "/home/fs/Proyectos/mysql:/var/lib/mysql"
