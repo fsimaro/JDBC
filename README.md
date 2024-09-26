@@ -1,6 +1,7 @@
 # Trabajo Practico 2, ejercicio 9
 
 Considerar el diseño de un registro de estudiantes, con la siguiente información: nombres, apellido, edad, género, número de documento, ciudad de residencia, número de libreta universitaria, carrera(s) en la que está inscripto, antigüedad en cada una de esas carreras, y si se graduó o no. 
+
     a. Diseñar el diagrama de objetos y el diagrama DER correspondiente.
     b. Implementar consultas para:
         1. dar de alta un estudiante
