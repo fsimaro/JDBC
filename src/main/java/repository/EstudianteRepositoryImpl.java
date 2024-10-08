@@ -64,7 +64,7 @@ public class EstudianteRepositoryImpl implements EstudianteRepository {
     @Override
     public Optional<Estudiante> findByLibretaUniversitaria(String libretaUniversitaria){
         String sqlQuery = "SELECT e FROM Estudiante e WHERE e.libretaUniversitaria = \'" + libretaUniversitaria + '\'';
-        return Optional.ofNullable(entityManager.createQuery(sqlQuery, Estudiante.class).getSingleResult());
+        return entityManager.createQuery(sqlQuery, Estudiante.class).getResultList().stream().findFirst();
     }
 
     /**
